@@ -1,0 +1,465 @@
+/*   
+Theme Name: Amigo 1985
+Theme URI: http://www.lizdizon.com/amigo1985/
+Description: A tribute to Amiga Workbench Version 1.0 (1985)
+Author: Liz Dizon
+Author URI: http://www.lizdizon.com/
+*/
+
+@font-face {
+	font-family: 'TopazPlusa500a1000a2000Regula';
+	src: url('fonts/topaz/topazplus_a500_v1.0-webfont.eot');
+		src: url('fonts/topaz/topazplus_a500_v1.0-webfont.eot?iefix') format('eot'),
+		url('fonts/topaz/topazplus_a500_v1.0-webfont.woff') format('woff'),
+		url('fonts/topaz/topazplus_a500_v1.0-webfont.ttf') format('truetype'),
+		url('fonts/topaz/topazplus_a500_v1.0-webfont.svg#webfontgKhSgKW5') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+html {
+	margin-top: 0 !important;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.post_body h1 {
+	border-bottom: solid;
+}
+
+.post_body h2 {
+	border-bottom: ridge;
+}
+
+.post_body h3 {
+	border-bottom: groove;
+}
+
+.post_body h4 {
+	border-bottom: double;
+}
+
+.post_body h5 {
+	border-bottom: outset;
+}
+
+.post_body h6 {
+	border-bottom: dotted;
+}
+
+a {
+	color: #00519E;
+	background: #f0f0f0;
+	text-decoration: none;
+}
+
+/*p a {
+	padding: 1px 3px 1px 3px;
+}*/
+
+a:visited {
+	color: #507fd5;
+}
+
+a:hover {
+	color: #d77f1e;
+	background: #000;
+}
+
+a:active {
+	color: #000;
+	background: #ff0;
+}
+
+blockquote {
+	margin: 5px 20px 5px 20px;
+	padding: 5px 10px 0 10px;
+	background: #005fb8;
+	font-style: italic;
+}
+
+code {
+	border: medium dotted #507FD5;
+	padding: 5px;
+	font-family: Menlo, Consolas, "Bitstream Vera Sans Mono", "Andale Mono", Monaco, "DejaVu Sans Mono", "Lucida Console", monospace;
+	font-size: 14px;
+}
+
+pre {
+	font-family: Menlo, Consolas, "Bitstream Vera Sans Mono", "Andale Mono", Monaco, "DejaVu Sans Mono", "Lucida Console", monospace;
+	font-size: 13px;
+}
+
+ul {
+	list-style: square;
+}
+
+#gallery-1 img {
+	border: 0 !important;	/* fixme figure out why there is padding around linked images */
+}
+
+*, body, h1, h2, h3, h4, h5, h6 {
+	background: #00519E;
+	font-family: 'TopazPlusa500a1000a2000Regula';
+	font-size: 16px;
+	font-weight: normal;
+	color: #f0f0f0;
+}
+
+#titlebar {
+	display: block;
+	background: url(images/title_bar.png) no-repeat #00519E;
+	text-transform: uppercase;
+}
+
+#titlebar h1 {
+	display: inline;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+#titlebar a {
+	padding: 0 0 0 5px;
+	position: relative;
+	background: #E1E5EA;
+	top: -1px;
+}
+
+#titlebar a:visited {
+	color: #00519E;
+}
+
+#titlebar a:hover {
+	color: #d77f1e;
+	background: #000;
+}
+
+#titlebar a:active {
+	color: #000;
+	background: #ff0;
+}
+
+#tagline {
+	text-align: right;
+	color: #d77f1e;
+	margin: 5px 16px 15px 0;
+}
+
+/* this stuff was going to be a drop-down menu for pages */
+
+/*#page_nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#page_nav ul li {
+	margin: 0;
+	float: left;
+}
+
+#page_nav ul li a {
+	display: block;
+	padding: 5px;
+	background: #000;
+	color: #fff;
+	margin-right: 5px;
+}*/
+
+.post {
+	border: 0 2px 2px 2px solid #f0f0f0;
+	margin-bottom: 20px;
+}
+
+.post > h3 {
+	line-height: 20px;
+	width: 698px;
+	color: #00519E;
+	background: url("images/post_head.png") #00519E no-repeat;
+	padding: 0 0 16px 30px;
+	margin-bottom: 0;
+}
+
+.post > h3 a {
+	padding: 0 3px 0 2px
+}
+
+.post_body {
+	background: url("images/post_body.png") repeat-y;
+	padding: 4px 36px 10px 20px;
+}
+
+.post_body a:visited {
+	color: #00519E;
+	background: #808080;
+}
+
+.post_body a:hover {
+	color: #d77f1e;
+	background: #000;
+}
+
+.post_body a:active {
+	color: #ff0;
+	background: #507fd5;
+}
+
+.post_body img {
+	vertical-align: text-top;
+/*	float: left;
+*/}
+
+.post_body cite {
+	display: block;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.post_footer {
+	line-height: 20px;
+	color: #00519E;
+	background: url("images/post_foot.png") no-repeat bottom #507fd5;
+	padding: 2px 36px 20px 20px;
+	margin-bottom: 0;
+}
+
+.post_footer a {
+	color: #00519E;
+	background: #507fd5;
+	padding: 0;
+}
+
+.post_footer a:visited {
+	color: #005fb8;
+}
+
+.post_footer a:hover {
+	color: #f0f0f0;
+}
+
+.post_footer a:active {
+	color: #d77f1e;
+	background: #000;
+}
+
+.tags {
+	color: #507fd5;
+	float: clear;
+	clear: both;
+}
+
+.tags a {
+	color: #00519E;
+	background: #507fd5;
+}
+
+.tags a:visited {
+	color: #00519E;
+}
+
+.tags a:hover {
+	color: #d77f1e;
+	background: #000;
+}
+
+.tags a:active {
+	color: #000;
+	background: #ff0;
+}
+
+#sidebar {
+	border: 2px solid #f0f0f0;
+	border-top: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#sidebar h3 {
+	display: block;
+	padding: 0 3px 0 0;
+	color: #00519E;
+	background: url(images/side_bar_header.png) no-repeat;
+	text-transform: uppercase;
+	text-indent: 30px;
+}
+
+#sidebar h3 span {
+	background-color: #E1E5EA;
+	padding: 0 3px;
+	color: #00519E;
+	position: relative;
+	top: -1px;
+}
+
+#sidebar h4 {
+	color: #d77f1e;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+#sidebar_pages, #sidebar_categories, #sidebar_links, #sidebar_meta {
+	list-style: none;
+}
+
+#sidebar_footer {
+	display: block; 
+	background: url(images/side_bar_footer.png) no-repeat bottom;
+}
+
+#nav ul li {
+	margin-left: 20px;
+}
+
+#nav h2 {
+	color: #d77f1e;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.widget_box{
+	margin: 20px 20px 30px 20px;
+}
+
+.widget_box ul {
+	list-style: square;
+}
+
+.widget_box ul li{
+	list-style: square;
+	margin-left: 10px;
+	padding-left: 0;
+}
+
+.current_page_item > a, .current-cat > a {
+	color: #d77f1e;
+	background: #000;
+}
+
+#footer {
+	padding: 20px;
+}
+
+#comments_box {
+	border: 2px outline #f0f0f0;
+	border-top: 0;
+	background: url("images/post_body.png") repeat-y;
+	margin-bottom: 20px;
+}
+
+#comments_box ul {
+	list-style: none;
+	}
+
+#comment_box_title {
+	color: #00519E;
+	background: #E3E5EA;
+	display: inline;
+	padding: 1px 3px 0 3px;
+}
+
+#respond {
+	width: 698px;
+	color: #00519E;
+	background: url("images/post_head.png") #00519E no-repeat;
+	padding: 0 0 16px 30px;
+	margin-bottom: 0; /* fixme */
+}
+
+input#submit {
+	margin-left: 10px;
+}
+
+input#s {
+	margin-bottom: 5px;
+	width: 180px;
+}
+
+.comment {
+	margin: 10px 46px 10px 10px;
+}
+
+.comment-meta {
+	margin-bottom: 10px;
+}
+
+.comment-body {
+	padding: 10px;
+}
+
+.reply {
+	text-align: right;
+}
+
+.odd .comment-body {
+	background: #005FB8;
+}
+
+.byuser {
+	border: 2px solid #d77f1e;
+}
+
+#comments_footer {
+	line-height: 40px;
+	color: #507fd5;
+	background: url("images/post_foot.png") no-repeat bottom;
+	padding: 0;
+	margin: 0;
+}
+
+
+textarea {
+	color: #00519E;
+	font-family: 'TopazPlusa500a1000a2000Regula';
+	font-size: 16px;
+	font-weight: normal;
+	background: #f0f0f0;
+}
+
+#pagination {
+	text-align: right;
+}
+
+#pagination a {
+	color: #00519E
+}
+
+#pagination a:hover {
+	color: #d77f1e;
+	background: #000;
+}
+
+
+.alignleft {
+	padding-right: 15px;
+}
+
+.alignright {
+	padding-left: 15px;
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	margin: auto;
+}
+
+.wp-caption-text {
+	color: #507FD5;
+	text-align: center;
+}
+
+.more-link {
+	background: #4A77CA;
+}
+
+#stats {
+	postition: absolute;
+	bottom: 0 !important;
+}
