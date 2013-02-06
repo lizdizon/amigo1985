@@ -7,6 +7,12 @@ This WordPress theme started as one of my school projects in 2011, and I wanted 
 
 http://www.lizdizon.com/amigo1985/
 
+features
+--------
+
+* Makes your WordPress installation look like Amiga Workbench 1.x
+* Widget support
+
 quick install
 -------------
 
