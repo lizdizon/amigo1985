@@ -1,7 +1,7 @@
 amigo1985
 =========
 
-Amigo 1985 WordPress Theme - a tribute to Amiga Workbench 1.0
+Amigo 1985 WordPress Theme - a tribute to Amiga Workbench 1.x
 
 This WordPress theme started as one of my school projects in 2011, and I wanted to share it.
 
@@ -17,7 +17,7 @@ quick install
 -------------
 
 1. [Download the amigo1985 project as a .zip](https://github.com/lizdizon/amigo1985/archive/master.zip) and unarchive it into the `/wp-content/themes/` directory of your WordPress installation.
-  * Optionally, rename the directory to `amigo1985`.
+  * Optionally, rename the new theme's directory to `amigo1985`.
 2. Activate the theme from your WordPress Dashboard > Appearance > Themes.
 
 known issues
