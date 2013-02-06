@@ -16,7 +16,7 @@ features
 quick install
 -------------
 
-[Download the amigo1985 project as a .zip](https://github.com/lizdizon/amigo1985/archive/master.zip) and unarchive it into the `/wp-content/themes/` directory of your WordPress installation.
+[Download the amigo1985 project as a .zip](https://github.com/lizdizon/amigo1985/archive/master.zip) and unarchive it into the `/wp-content/themes/` directory of your WordPress installation. Activate the theme from your WordPress Dashboard > Appearance > Themes.
 
 known issues
 ------------
