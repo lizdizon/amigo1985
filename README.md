@@ -17,6 +17,7 @@ quick install
 -------------
 
 1. [Download the amigo1985 project as a .zip](https://github.com/lizdizon/amigo1985/archive/master.zip) and unarchive it into the `/wp-content/themes/` directory of your WordPress installation.
+  * You can delete the .psd files in `/images/` before uploading the theme to your server in order to save upload time and drive space. They are only there in case you needed to modify the theme images.
   * Optionally, rename the new theme's directory to `amigo1985`.
 2. Activate the theme from your WordPress Dashboard > Appearance > Themes.
 
