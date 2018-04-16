@@ -89,11 +89,6 @@ code {
 	font-size: 14px;
 }
 
-pre {
-	font-family: Menlo, Consolas, "Bitstream Vera Sans Mono", "Andale Mono", Monaco, "DejaVu Sans Mono", "Lucida Console", monospace;
-	font-size: 13px;
-}
-
 ul {
 	list-style: square;
 }
@@ -210,13 +205,19 @@ ul {
 
 .post_body img {
 	vertical-align: text-top;
-/*	float: left;
-*/}
+	max-width: 100%;
+	height: auto;
+}
 
 .post_body cite {
 	display: block;
 	text-align: right;
 	margin-right: 20px;
+}
+
+.post_body embed, iframe, object {
+    display: block;
+    margin: 0 auto;
 }
 
 .post_footer {
@@ -332,6 +333,15 @@ ul {
 	list-style: square;
 	margin-left: 10px;
 	padding-left: 0;
+}
+
+.widget_box img {
+    height: auto;
+    max-width: 100%;
+}
+
+.widget_box table {
+	width: 100%;
 }
 
 .current_page_item > a, .current-cat > a {
