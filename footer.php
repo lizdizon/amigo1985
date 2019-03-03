@@ -9,7 +9,7 @@
         
         <div id="sidebar_footer" class="clear">&nbsp;</div>
 
-        
+        <?php wp_footer(); ?>
 	</div><!-- end container-->
 </body>
 </html>
