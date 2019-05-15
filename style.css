@@ -4,6 +4,7 @@ Theme URI: http://www.lizdizon.com/amigo1985/
 Description: A tribute to Amiga Workbench Version 1.0 (1985)
 Author: Liz Dizon
 Author URI: http://www.lizdizon.com/
+Edits by: Cliky & Pathduck
 */
 
 @font-face {
@@ -20,13 +21,9 @@ Author URI: http://www.lizdizon.com/
 
 
 html {
-	margin-top: 0 !important;
+/*	margin-top: 0 !important;  why not in reset.css  ? DR */
 }
-
-h1 {
-	text-transform: uppercase;
-}
-
+/*
 .post_body h1 {
 	border-bottom: solid;
 }
@@ -50,35 +47,31 @@ h1 {
 .post_body h6 {
 	border-bottom: dotted;
 }
-
-a {
-	color: #00519E;
-	background: #f0f0f0;
+*/
+ a {
+	color: #E1E5EA; /* (changed to white) Dark Blue on White Background link */
+	/* background-color: #E1E5EA; */
 	text-decoration: none;
 }
 
-/*p a {
-	padding: 1px 3px 1px 3px;
-}*/
-
 a:visited {
-	color: #507fd5;
+	color: #507fd5; /* Royal Blue */
 }
 
 a:hover {
-	color: #d77f1e;
-	background: #000;
+	color: #d77f1e; /* Orange */
+	background: #000; /* Black */
 }
 
 a:active {
-	color: #000;
-	background: #ff0;
+	color: #000; /* Black */
+	background: #ff0; /* bright yellow ? */
 }
 
 blockquote {
 	margin: 5px 20px 5px 20px;
 	padding: 5px 10px 0 10px;
-	background: #005fb8;
+	/* background: #ff0; */ 
 	font-style: italic;
 }
 
@@ -87,11 +80,6 @@ code {
 	padding: 5px;
 	font-family: Menlo, Consolas, "Bitstream Vera Sans Mono", "Andale Mono", Monaco, "DejaVu Sans Mono", "Lucida Console", monospace;
 	font-size: 14px;
-}
-
-pre {
-	font-family: Menlo, Consolas, "Bitstream Vera Sans Mono", "Andale Mono", Monaco, "DejaVu Sans Mono", "Lucida Console", monospace;
-	font-size: 13px;
 }
 
 ul {
@@ -185,7 +173,13 @@ ul {
 }
 
 .post > h3 a {
-	padding: 0 3px 0 2px
+	/* padding: 0 3px 0 2px */
+	
+	background-color: #E1E5EA; /* makes the back of bar white */
+	padding: 0 3px;
+	color: #00519E;
+	position: relative;
+	/* top: -1px; */
 }
 
 .post_body {
@@ -194,7 +188,7 @@ ul {
 }
 
 .post_body a:visited {
-	color: #00519E;
+	/* color: #00519E; clashing */
 	background: #808080;
 }
 
@@ -210,13 +204,19 @@ ul {
 
 .post_body img {
 	vertical-align: text-top;
-/*	float: left;
-*/}
+	max-width: 100%;
+	height: auto;
+}
 
 .post_body cite {
 	display: block;
 	text-align: right;
 	margin-right: 20px;
+}
+
+.post_body embed, iframe, object {
+    display: block;
+    margin: 0 auto;
 }
 
 .post_footer {
@@ -288,7 +288,7 @@ ul {
 }
 
 #sidebar h3 span {
-	background-color: #E1E5EA;
+	background-color: #E1E5EA; /* makes the back of bar white */
 	padding: 0 3px;
 	color: #00519E;
 	position: relative;
@@ -310,12 +310,17 @@ ul {
 	background: url(images/side_bar_footer.png) no-repeat bottom;
 }
 
+#nav {
+    float: left;
+    margin-bottom: 10px;
+}
 #nav ul li {
-	margin-left: 20px;
+	margin-right: 20px;
+	list-style: none;
+	float: left;
 }
 
 #nav h2 {
-	color: #d77f1e;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }
@@ -332,6 +337,15 @@ ul {
 	list-style: square;
 	margin-left: 10px;
 	padding-left: 0;
+}
+
+.widget_box img {
+    height: auto;
+    max-width: 100%;
+}
+
+.widget_box table {
+	width: 100%;
 }
 
 .current_page_item > a, .current-cat > a {
@@ -355,18 +369,18 @@ ul {
 	}
 
 #comment_box_title {
-	color: #00519E;
+	color: #00519E; 
 	background: #E3E5EA;
 	display: inline;
 	padding: 1px 3px 0 3px;
 }
 
 #respond {
-	width: 698px;
+	width: 698px; 
 	color: #00519E;
 	background: url("images/post_head.png") #00519E no-repeat;
 	padding: 0 0 16px 30px;
-	margin-bottom: 0; /* fixme */
+	margin-bottom: 0;  /* fixme */
 }
 
 input#submit {
@@ -460,6 +474,10 @@ textarea {
 }
 
 #stats {
-	postition: absolute;
+	position: absolute; /* position was spelt wrong - DR */
 	bottom: 0 !important;
 }
+#book-a-place-scheme .scheme-place-booked {
+  background-color: red !important;
+}
+

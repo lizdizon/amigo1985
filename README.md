@@ -33,3 +33,5 @@ dev caveat
 
 — Liz Dizon
 6 February 2013
+
+31 March 2019 - Icon Menu added using 'Menu Image' plugin https://wordpress.org/plugins/menu-image/

@@ -16,5 +16,9 @@
 	<div id="container" class="container_12">
         <div id='header'>
             <div id="titlebar"><h1><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1></div>
+            
+            <div id="nav">
+                <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ));?></div>   
+            
             <h2 id="tagline"><?php bloginfo('description'); ?></h2>
         </div>
